@@ -1,4 +1,4 @@
 # SQL-0racle
 SQL Queries
 
-A full list of sql oracle queries with results
+Write SQL Queries to interact with Oracle Databases
