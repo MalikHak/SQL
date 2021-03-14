@@ -5,6 +5,7 @@ SELECT * from dept
 where deptno = 30
 
 
+
 SELECT * from dept
 where deptno = ( select deptno from dept where deptno = 30)
 
@@ -59,6 +60,7 @@ from emp
 
 SELECT job, ename, (select 'Hello there' from dual)
 from emp
+
 
 
 SELECT job, ename, (select 'Hello there' from dual)
@@ -134,8 +136,10 @@ WHERE e.deptno = d.deptno
 
 
 
+
                                                             INNER & OUTER JOINS
-                                                            
+            
+            
                                                             
 SELECT *
 from emp, dept
