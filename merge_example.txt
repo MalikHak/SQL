@@ -8,6 +8,7 @@ CREATE TABLE existing_customers (
 );
 
 
+
 BEGIN
 	INSERT INTO existing_customers (customer_id, first_name, last_name, address_state, email_address)
 	VALUES (1, 'Teresa', 'Hudson', 'NY', 'thudson@abc.com');
