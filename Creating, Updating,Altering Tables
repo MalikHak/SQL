@@ -29,7 +29,9 @@ from stores
 group by store_id
 
 
+
 -- The code below does not work because we cannot insert NULL into store_id
+
 INSERT ALL
     INTO stores (store_id, city) VALUES (NULL, 'Philadelphia')
     INTO stores (store_id, city) VALUES (NULL, 'Boston')
@@ -82,4 +84,5 @@ INSERT ALL
         VALUES (1009, 'Garden Chair', 12.01, 27.87, 'Home & Gar', 2)
     INTO products (product_id, name, product_cost, product_retail, product_type, store_id )
         VALUES (1010, 'Grass Fertilizer', 3.20, 8.70, 'Home & Gar', 2)
+        
 SELECT * FROM DUAL; 
