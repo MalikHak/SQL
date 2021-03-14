@@ -50,6 +50,7 @@ SELECT * FROM all_tab_COLUMNS
 WHERE table_name = 'EMPLOYEES'
 
 
+
 SELECT * FROM ALL_OBJECTS
 WHERE object_type = 'TABLE'
 AND ROWNUM < 50
