@@ -414,6 +414,7 @@ from emp
 GROUP BY job
 
 
+
 SELECT distict job from emp
 
 
