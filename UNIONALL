@@ -100,4 +100,6 @@ AND e1.sal = e2.sal
 WHERE ename != 'FORD'
 
 
+
+
 drop view super_employees
